@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
-import Hello from './Hello';
 import './style.css';
-import Navbar from './components/Navbar'
-import Booklist from './components/Booklist'
+import SongList from './components/SongList'
 
 class App extends Component {
   constructor() {
@@ -16,8 +14,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Navbar />
-        <Booklist />
+        <SongList />
       </div>
     );
   }
